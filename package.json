@@ -1,0 +1,16 @@
+{
+  "name": "parcel-from-scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zerobias/parcel-from-scratch.git",
+  "author": "Dmitry <ribkatt@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
+  },
+  "scripts": {
+    "build": "npx parcel build src/index.html",
+    "start": "npx parcel src/index.html",
+    "postinstall": "yarn build"
+  }
+}
